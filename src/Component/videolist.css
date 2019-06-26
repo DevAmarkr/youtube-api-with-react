@@ -1,0 +1,21 @@
+.list-box{
+    border: 1px solid rgb(182, 182, 182);
+    display: flex;
+    flex-direction: row;
+    transform: translateX(65rem);
+    width: 50%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: .5rem
+
+}
+.image-box{
+  flex: 1
+}
+.image-box >img {
+    width: 200px;
+    height: 120px
+}
+.imgae-text{
+    flex: 1
+}
