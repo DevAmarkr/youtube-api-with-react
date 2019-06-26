@@ -13,12 +13,6 @@ class SearchBar extends React.Component{
        e.preventDefault()
       this.props.fetchVideo(this.state.search)
     }
-   
- 
-
-
-
-
    render(){
       return[
          <div class="ui segment">

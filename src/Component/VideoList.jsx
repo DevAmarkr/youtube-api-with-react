@@ -5,7 +5,7 @@ const VideoList = (props) =>{
     
     console.log(props.data.snippet.thumbnails.medium.url)
     return [
-        <div className ="list-box">
+        <div className ="list-box" onClick = {()=>props.onVideoSelect(props.data)}>
             <div className="image-box">
                <img src={props.data.snippet.thumbnails.medium.url} alt=""/>
             </div>
